@@ -1,26 +1,57 @@
+/*GLOBAL*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin:0;
     padding:0;
     font-family:'Roboto';
 }
+/*HEADER PICTURE*/
 header{
     background:url(../img/ilustracion1.png)no-repeat right;
-    background-size: 45em;}
-header section{
-    padding-top: 20%;
+    background-size: 43em;
+    background-position-y: 0;
+    
+}
+/*#guy{
+    position: relative;
+    top:400px;
+    right:100px;
+    margin-left:60%;
+    width: 45%;
+}*/
+
+/*LOGO*/
+#logo{
+    width: 6%;
+    padding-right: 2%;
+    margin-top: 0;
+}
+.logotext{
+    margin-left: 3%;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+#logospan{
+    font-size: 0.5em;
+    margin-left: 10%;
+    line-height: 0.2em;
+}
+/*Header Article */
+.How_to_become{
+    margin:4% 50% 0% 10%;
 }
 header p{
-    padding:0% 70% 10% 0%;
+    padding:0% 0% 10% 0%;
 }
 header h1{
-    font-size: 5em;padding-right: 50%;
+    font-size: 4em;
+    padding-right: 0%;
 }
+/*MAIN Picture*/
 .multipic{
     width: 100%;
 }
-
-
+/*Header First Article*/
 .h2{
     display: inline-block;
     position: relative;
@@ -29,7 +60,6 @@ header h1{
 .w1{
     position: relative;
     display: inline-block;
-    border:solid;
     font-size: 2em;
     height: 40%;
     margin-left: 2%;
@@ -37,7 +67,6 @@ header h1{
 }
 .every{
     position: relative;
-    border:solid;
     margin-left:50%;
     bottom: 40%;
 
@@ -47,7 +76,8 @@ header h1{
     margin-left:10%;
 }
 #After{
-    margin-right:50%;
+    margin:10% 50% 10% 0%;
+    padding-left:5%;
     font-size: 3em;
 }
 #box1,#box2,#box3,#box4{
@@ -55,98 +85,106 @@ header h1{
     width: 40%;
     padding: 5%;
 }
-#section3{
+/*SECTION3*/
+.section3{
     clear: both;
+    text-align: center;
+    margin-top:40%;
 }
-#section3 h1{
-    padding: 0% 4% 0% 20%;
+
+.section3 h1{
+    font-size: 3em;
 }
-#section3 p{
-    padding:0% 4% 0% 20%;
+.section3 p{
+    margin: 2% 25% 0% 25%;
 }
+
 
 /* SECTION 4*/
 #section4{
-    background: url(../img/step01.png)no-repeat left;
-    background-size: 40em;
+    background: url(../img/step01.png)no-repeat  left;
+    background-size: 30em;
+    background-position: 100px 280px;
     padding-top:10%;
 }
 
 .article2{
-    margin-left: 50%;
-    margin-right: 7%;
-    
+    margin: 0% 7% 0% 50%;
 }
 #section4 h3{
     padding-bottom: 2%;
 }
 #section4 p{
     line-height: 3em;
+    padding-bottom: 10%;
 }
 
 /*SECTION 5*/
 #section5{
     background: url(../img/step02.png)no-repeat right;
-    background-size: 40em;
-    padding-top:10%;
+    background-size: 30em;
+    background-position-y: 160px;
+    background-position-x: 880px;
+    
 }
 .article3{
-    margin-right:62%;
+    margin: 10% 40% 0% 10%;
 }
 #section5 h2{
-    margin-top: 6%;
-    margin-bottom:5%;
+    margin: 6% 0% 10% 0%;
 }
 #section5 p{
-    line-height: 2em;
+    line-height: 3em;
+    padding-bottom: 5%;
 }
 /* SECTION6*/
 #section6{
     background: url(../img/step03.png)no-repeat left;
-    padding-top:10%;
-    background-size: 45em;
-}
+    background-position: 100px 130px;
+    background-size: 30em;
+    margin-top:10%;
+} 
 .article4{
-    margin-left: 50%;
-    margin-right: 7%;
+    margin: 0% 3% 0% 50%;
 }
 #section6 h2{
-    margin-top: 6%;
     margin-bottom:5%;
 }
 #section6 p{
-    line-height: 2em;
+    line-height: 3em;
+    padding-bottom: 10%;
 }
 /*SECTION7*/
 #section7{
     background: url(../img/step04.png)no-repeat right;
-    padding-top:10%;
-    background-size: 45em;
+    background-position: 870px 160px;
+    background-size: 30em;
 }
 .article5{
-    margin-right:62%;
+    margin: 0% 40% 0% 10%;
 }
 #section7 h2{
-    margin-top: 6%;
     margin-bottom:5%;
 }
-#section p{
-    line-height: 2em;
+#section7 p{
+    line-height: 3em;
+    padding-bottom: 10%;
 }
 
 /*Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000*/
 .number{
     color:rgba(128, 128, 128, 0.534);
-    font-size: 6em;
-    border:solid;
+    font-size: 4em;
 }
+/*SECTION8*/
 .section8{
     margin-top: 5%;
     text-align: center;
     
 }
 .section8 h1{
-    font-size: 2em;
+    font-weight: 900;
+    font-size: 3em;
     margin-bottom:2%;
 }
 /*SECTION9*/
@@ -156,9 +194,10 @@ header h1{
 .section9 button{
     background-color:#ff3571 ;
     color:white;
-    padding-right:7%;
-    padding-left:7%;
-    padding-top:1%;
-    padding-bottom:1%;
+    padding: 1% 7% 1% 7%;
     margin-top: 2%;
+}
+/*Section10*/
+.section10{
+    margin-left:10%;
 }
